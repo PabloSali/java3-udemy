@@ -8,9 +8,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Expression Test</title>
 </head>
 <body>
-
+    Converting a string to uppercase: <%= new String("Hello World").toUpperCase()%>
+    <br>
+    25 x 4 = <%= 25 * 4 %>
+    <br>
+    Is 75 less than 60? <%= 75 < 60 %>
 </body>
 </html>
