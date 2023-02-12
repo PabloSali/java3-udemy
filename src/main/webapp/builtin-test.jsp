@@ -7,10 +7,18 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Builtin Test</title>
+</head>
+<body>
+  <h3> JSP Built-In Objects</h3>
+
+  Request user agent: <%= request.getHeader("User-Agent") %>
+
+  <br>
+
+  Request Language: <%= request.getLocale()%>
+
+
+</body>
 </html>

@@ -7,10 +7,17 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Declaration Test</title>
+</head>
+<body>
+  <h3>Hello World</h3>
+
+  <%!
+    String makeItLower(String data){
+      return data.toLowerCase();
+    }
+  %>
+  Lower case "Hello World": <%= makeItLower("Hello World")%>
+</body>
 </html>

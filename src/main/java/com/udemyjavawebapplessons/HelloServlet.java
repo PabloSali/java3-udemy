@@ -1,4 +1,4 @@
-package com.example.udemyjavawebapplessons;
+package com.udemyjavawebapplessons;
 
 import java.io.*;
 

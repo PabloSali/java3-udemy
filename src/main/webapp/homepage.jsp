@@ -7,10 +7,17 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title> Home Page </title>
+</head>
+<body>
+<jsp:include page="my-header.html"/>
+
+This is my Content placeholder
+This is my Content placeholder
+This is my Content placeholder
+This is my Content placeholder
+
+<jsp:include page="my-footer.jsp"/>
+</body>
 </html>
